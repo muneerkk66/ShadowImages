@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C446DB7C17DB254D00E0F2BF /* muneer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C446DB7B17DB254D00E0F2BF /* muneer.jpg */; };
 		C4658F9317D89BD4008F8E1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4658F9217D89BD4008F8E1C /* UIKit.framework */; };
 		C4658F9517D89BD4008F8E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4658F9417D89BD4008F8E1C /* Foundation.framework */; };
 		C4658F9717D89BD4008F8E1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4658F9617D89BD4008F8E1C /* CoreGraphics.framework */; };
@@ -18,9 +19,11 @@
 		C4658FA917D89BD5008F8E1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4658FA817D89BD5008F8E1C /* Default-568h@2x.png */; };
 		C4658FAC17D89BD5008F8E1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4658FAB17D89BD5008F8E1C /* ViewController.m */; };
 		C4658FAF17D89BD5008F8E1C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4658FAD17D89BD5008F8E1C /* ViewController.xib */; };
+		C4658FB917D89D22008F8E1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4658FB817D89D22008F8E1C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C446DB7B17DB254D00E0F2BF /* muneer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muneer.jpg; sourceTree = "<group>"; };
 		C4658F8F17D89BD4008F8E1C /* ShadowImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4658F9217D89BD4008F8E1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4658F9417D89BD4008F8E1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +40,7 @@
 		C4658FAA17D89BD5008F8E1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4658FAB17D89BD5008F8E1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4658FAE17D89BD5008F8E1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C4658FB817D89D22008F8E1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4658FB917D89D22008F8E1C /* QuartzCore.framework in Frameworks */,
 				C4658F9317D89BD4008F8E1C /* UIKit.framework in Frameworks */,
 				C4658F9517D89BD4008F8E1C /* Foundation.framework in Frameworks */,
 				C4658F9717D89BD4008F8E1C /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +61,7 @@
 		C4658F8617D89BD4008F8E1C = {
 			isa = PBXGroup;
 			children = (
+				C446DB7B17DB254D00E0F2BF /* muneer.jpg */,
 				C4658F9817D89BD4008F8E1C /* ShadowImageView */,
 				C4658F9117D89BD4008F8E1C /* Frameworks */,
 				C4658F9017D89BD4008F8E1C /* Products */,
@@ -73,6 +79,7 @@
 		C4658F9117D89BD4008F8E1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4658FB817D89D22008F8E1C /* QuartzCore.framework */,
 				C4658F9217D89BD4008F8E1C /* UIKit.framework */,
 				C4658F9417D89BD4008F8E1C /* Foundation.framework */,
 				C4658F9617D89BD4008F8E1C /* CoreGraphics.framework */,
@@ -163,6 +170,7 @@
 				C4658FA717D89BD5008F8E1C /* Default@2x.png in Resources */,
 				C4658FA917D89BD5008F8E1C /* Default-568h@2x.png in Resources */,
 				C4658FAF17D89BD5008F8E1C /* ViewController.xib in Resources */,
+				C446DB7C17DB254D00E0F2BF /* muneer.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +306,7 @@
 				C4658FB417D89BD5008F8E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
